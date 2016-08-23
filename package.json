@@ -1,0 +1,39 @@
+{
+  "name": "nodebb-plugin-sso-eveseat",
+  "version": "0.1.0",
+  "description": "NodeBB EVE SeAt SSO",
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "eveseat",
+    "sso",
+    "single sign on",
+    "registration"
+  ],
+  "author": {
+    "name": "Johnny Splunk",
+    "email": "johnnysplunk@eve-scout.com",
+    "url": "http://www.eve-scout.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eve-scout/nodebb-plugin-sso-eveseat.git"
+  },
+  "bugs": {
+    "url": "http://github.com/eve-scout/nodebb-plugin-sso-eveseat/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "library.js",
+  "nbbpm": {
+    "compatibility": "^1.1.0"
+  },
+  "dependencies": {
+    "passport-eveseat": "^0.9.0"
+  }
+}
